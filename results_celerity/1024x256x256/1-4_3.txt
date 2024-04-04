@@ -1,0 +1,189 @@
+[2023-12-24 03:44:57.862] [2] [[32minfo[m] Celerity runtime version 0.3.2 59e7d61-dirty running on hipSYCL 0.9.3. PID = 2804491, build type = release
+[2023-12-24 03:44:57.862] [3] [[32minfo[m] Celerity runtime version 0.3.2 59e7d61-dirty running on hipSYCL 0.9.3. PID = 2804492, build type = release
+[2023-12-24 03:44:57.862] [0] [[32minfo[m] Celerity runtime version 0.3.2 59e7d61-dirty running on hipSYCL 0.9.3. PID = 2804489, build type = release
+[2023-12-24 03:44:57.862] [1] [[32minfo[m] Celerity runtime version 0.3.2 59e7d61-dirty running on hipSYCL 0.9.3. PID = 2804490, build type = release
+[2023-12-24 03:45:01.726] [0] [[32minfo[m] Using platform 'CUDA', device 'NVIDIA GeForce RTX 2070 SUPER' (automatically selected platform 0, device 0)
+[2023-12-24 03:45:02.013] [2] [[32minfo[m] Using platform 'CUDA', device 'NVIDIA GeForce RTX 2070 SUPER' (automatically selected platform 0, device 2)
+[2023-12-24 03:45:02.089] [1] [[32minfo[m] Using platform 'CUDA', device 'NVIDIA GeForce RTX 2070 SUPER' (automatically selected platform 0, device 1)
+[2023-12-24 03:45:02.109] [3] [[32minfo[m] Using platform 'CUDA', device 'NVIDIA GeForce RTX 2070 SUPER' (automatically selected platform 0, device 3)
+ My upper type: 0 2 2
+======================================================
+ Writing info on... 
+  ... Runge Kutta Stepping 
+  ... value of cfl number 
+  ... I/O of data 
+  ... Energetics 
+  ... divergence of B 
+  ... Timing 
+======================================================
+ Using the HLLC solver 
+ My upper type: 0 2 2
+======================================================
+ Writing info on... 
+  ... Runge Kutta Stepping 
+  ... value of cfl number 
+  ... I/O of data 
+  ... Energetics 
+  ... divergence of B 
+  ... Timing 
+======================================================
+ Using the HLLC solver 
+ My upper type: 0 2 2
+======================================================
+ Writing info on... 
+  ... Runge Kutta Stepping 
+  ... value of cfl number 
+  ... I/O of data 
+  ... Energetics 
+  ... divergence of B 
+  ... Timing 
+======================================================
+ Using the HLLC solver 
+ My upper type: 0 2 2
+======================================================
+ Writing info on... 
+  ... Runge Kutta Stepping 
+  ... value of cfl number 
+  ... I/O of data 
+  ... Energetics 
+  ... divergence of B 
+  ... Timing 
+======================================================
+ Using the HLLC solver 
+calling init (type=84)...
+ Cartesian Sedov Explosion 
+1023 255 255
+ Initial volume: 1.04308e-07
+calling init (type=84)...
+ Cartesian Sedov Explosion 
+1023 255 255
+calling init (type=84)...
+ Cartesian Sedov Explosion 
+1023 255 255
+ Initial volume: 1.04308e-07
+ Initial volume: 1.04308e-07
+calling init (type=84)...
+ Cartesian Sedov Explosion 
+1023 255 255
+ Initial volume: 1.04308e-07
+all ICs set.
+ Storing values for fixed boundaries 
+------- Field ids-------------------------------------
+Add0      ->  5
+Add1      ->  6
+Etherm    ->  4
+rho       ->  0
+v_x       ->  1
+v_y       ->  2
+v_z       ->  3
+======================================================
+Integrating: time = 0 with dt = 1e-06 at step 0
+  RKSTEP = 1
+all ICs set.
+ Storing values for fixed boundaries 
+------- Field ids-------------------------------------
+Add0      ->  5
+Add1      ->  6
+Etherm    ->  4
+rho       ->  0
+v_x       ->  1
+v_y       ->  2
+v_z       ->  3
+all ICs set.
+ Storing values for fixed boundaries 
+------- Field ids-------------------------------------
+Add0      ->  5
+Add1      ->  6
+Etherm    ->  4
+rho       ->  0
+v_x       ->  1
+v_y       ->  2
+v_z       ->  3
+======================================================
+Integrating: time = 0 with dt = 1e-06 at step 0
+  RKSTEP = 1
+======================================================
+Integrating: time = 0 with dt = 1e-06 at step 0
+  RKSTEP = 1
+all ICs set.
+ Storing values for fixed boundaries 
+------- Field ids-------------------------------------
+Add0      ->  5
+Add1      ->  6
+Etherm    ->  4
+rho       ->  0
+v_x       ->  1
+v_y       ->  2
+v_z       ->  3
+======================================================
+Integrating: time = 0 with dt = 1e-06 at step 0
+  RKSTEP = 1
+cfl: 2.37266e+06
+cfl: 2.37266e+06
+cfl: 2.37266e+06
+cfl: 2.37266e+06
+------------------------------------------------------
+ Time needed for substeps:  1.62345 2.00416 2.00416
+             for full step: 0.0978041
+  RKSTEP = 2
+------------------------------------------------------
+ Time needed for substeps:  1.92837 2.00413 2.00413
+             for full step: 0.0977759
+  RKSTEP = 2
+------------------------------------------------------
+ Time needed for substeps:  1.25152 2.00422 2.00422
+             for full step: 0.0977809
+  RKSTEP = 2
+------------------------------------------------------
+ Time needed for substeps:  1.63171 2.00422 2.00422
+             for full step: 0.0977969
+  RKSTEP = 2
+cfl: 3.72799e+06
+cfl: 3.72799e+06
+cfl: 3.72799e+06
+cfl: 3.72799e+06
+------------------------------------------------------
+ Time needed for substeps:  8.51154e-05 1.29031 1.29031
+             for full step: 0.0708001
+------------------------------------------------------
+ Time needed for substeps:  0.000202894 1.2903 1.2903
+             for full step: 0.070806
+------------------------------------------------------
+ Time needed for substeps:  0.000149012 1.29033 1.29033
+             for full step: 0.0707669
+------------------------------------------------------
+ Time needed for substeps:  0.000157118 1.29035 1.29035
+             for full step: 0.070812
+......................................................
+   Output (dbl)  triggered at time: 1e-06
+......................................................
+ Program exiting normally: 
+ ------ Time integration completed ------ 
+ Program exiting normally: 
+ ------ Time integration completed ------ 
+ Program exiting normally: 
+ ------ Time integration completed ------ 
+......................................................
+   Output (flt)  triggered at time: 1e-06
+ Program exiting normally: 
+ ------ Time integration completed ------ 
+......................................................
+......................................................
+   Output (flt)  triggered at time: 1e-06
+......................................................
+======================================================
+ Total run time               1m:46.1746s
+ Average time step duration   1m:46.1746s
+======================================================
+======================================================
+ Total run time               1m:47.0421s
+ Average time step duration   1m:47.0421s
+======================================================
+======================================================
+ Total run time               1m:46.5319s
+ Average time step duration   1m:46.5319s
+======================================================
+======================================================
+ Total run time               1m:46.9074s
+ Average time step duration   1m:46.9074s
+======================================================

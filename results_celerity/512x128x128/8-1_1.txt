@@ -1,0 +1,360 @@
+[2023-12-26 12:50:38.278] [0] [[32minfo[m] Celerity runtime version 0.3.2 59e7d61-dirty running on hipSYCL 0.9.3. PID = 1943733, build type = release
+[2023-12-26 12:50:38.278] [2] [[32minfo[m] Celerity runtime version 0.3.2 59e7d61-dirty running on hipSYCL 0.9.3. PID = 2713892, build type = release
+[2023-12-26 12:50:38.278] [5] [[32minfo[m] Celerity runtime version 0.3.2 59e7d61-dirty running on hipSYCL 0.9.3. PID = 51398, build type = release
+[2023-12-26 12:50:38.279] [1] [[32minfo[m] Celerity runtime version 0.3.2 59e7d61-dirty running on hipSYCL 0.9.3. PID = 1039905, build type = release
+[2023-12-26 12:50:38.279] [6] [[32minfo[m] Celerity runtime version 0.3.2 59e7d61-dirty running on hipSYCL 0.9.3. PID = 514843, build type = release
+[2023-12-26 12:50:38.278] [4] [[32minfo[m] Celerity runtime version 0.3.2 59e7d61-dirty running on hipSYCL 0.9.3. PID = 3780439, build type = release
+[2023-12-26 12:50:38.279] [3] [[32minfo[m] Celerity runtime version 0.3.2 59e7d61-dirty running on hipSYCL 0.9.3. PID = 485910, build type = release
+[2023-12-26 12:50:38.279] [7] [[32minfo[m] Celerity runtime version 0.3.2 59e7d61-dirty running on hipSYCL 0.9.3. PID = 2984964, build type = release
+[2023-12-26 12:50:39.315] [3] [[32minfo[m] Using platform 'CUDA', device 'NVIDIA GeForce RTX 2070 SUPER' (automatically selected platform 0, device 0)
+[2023-12-26 12:50:39.317] [2] [[32minfo[m] Using platform 'CUDA', device 'NVIDIA GeForce RTX 2070 SUPER' (automatically selected platform 0, device 0)
+[2023-12-26 12:50:39.321] [6] [[32minfo[m] Using platform 'CUDA', device 'NVIDIA GeForce RTX 2070 SUPER' (automatically selected platform 0, device 0)
+[2023-12-26 12:50:39.359] [4] [[32minfo[m] Using platform 'CUDA', device 'NVIDIA GeForce RTX 2070 SUPER' (automatically selected platform 0, device 0)
+[2023-12-26 12:50:39.363] [1] [[32minfo[m] Using platform 'CUDA', device 'NVIDIA GeForce RTX 2070 SUPER' (automatically selected platform 0, device 0)
+[2023-12-26 12:50:39.364] [7] [[32minfo[m] Using platform 'CUDA', device 'NVIDIA GeForce RTX 2070 SUPER' (automatically selected platform 0, device 0)
+[2023-12-26 12:50:39.364] [0] [[32minfo[m] Using platform 'CUDA', device 'NVIDIA GeForce RTX 2070 SUPER' (automatically selected platform 0, device 0)
+[2023-12-26 12:50:39.386] [5] [[32minfo[m] Using platform 'CUDA', device 'NVIDIA GeForce RTX 2070 SUPER' (automatically selected platform 0, device 0)
+ My upper type: 0 2 2
+======================================================
+ Writing info on... 
+  ... Runge Kutta Stepping 
+  ... value of cfl number 
+  ... I/O of data 
+  ... Energetics 
+  ... divergence of B 
+  ... Timing 
+======================================================
+ Using the HLLC solver 
+ My upper type: 0 2 2
+======================================================
+ Writing info on... 
+  ... Runge Kutta Stepping 
+  ... value of cfl number 
+  ... I/O of data 
+  ... Energetics 
+  ... divergence of B 
+  ... Timing 
+======================================================
+ Using the HLLC solver 
+ My upper type: 0 2 2
+======================================================
+ Writing info on... 
+  ... Runge Kutta Stepping 
+  ... value of cfl number 
+  ... I/O of data 
+  ... Energetics 
+  ... divergence of B 
+  ... Timing 
+======================================================
+ Using the HLLC solver 
+calling init (type=84)...
+ Cartesian Sedov Explosion 
+511 127 127
+ My upper type: 0 2 2
+======================================================
+ Writing info on... 
+  ... Runge Kutta Stepping 
+  ... value of cfl number 
+  ... I/O of data 
+  ... Energetics 
+  ... divergence of B 
+  ... Timing 
+======================================================
+ Using the HLLC solver 
+ My upper type: 0 2 2
+======================================================
+ Writing info on... 
+  ... Runge Kutta Stepping 
+  ... value of cfl number 
+  ... I/O of data 
+  ... Energetics 
+  ... divergence of B 
+  ... Timing 
+======================================================
+ Using the HLLC solver 
+ Initial volume: 8.34465e-07
+calling init (type=84)...
+ Cartesian Sedov Explosion 
+511 127 127
+calling init (type=84)...
+ Cartesian Sedov Explosion 
+511 127 127
+calling init (type=84)...
+ Cartesian Sedov Explosion 
+511 127 127
+ My upper type: 0 2 2
+======================================================
+ Writing info on... 
+  ... Runge Kutta Stepping 
+  ... value of cfl number 
+  ... I/O of data 
+  ... Energetics 
+  ... divergence of B 
+  ... Timing 
+======================================================
+ Using the HLLC solver 
+ Initial volume: 8.34465e-07
+calling init (type=84)...
+ Cartesian Sedov Explosion 
+511 127 127
+ Initial volume: 8.34465e-07
+ Initial volume: 8.34465e-07
+ My upper type: 0 2 2
+======================================================
+ Writing info on... 
+  ... Runge Kutta Stepping 
+  ... value of cfl number 
+  ... I/O of data 
+  ... Energetics 
+  ... divergence of B 
+  ... Timing 
+======================================================
+ Using the HLLC solver 
+ Initial volume: 8.34465e-07
+calling init (type=84)...
+ Cartesian Sedov Explosion 
+511 127 127
+calling init (type=84)...
+ Cartesian Sedov Explosion 
+511 127 127
+ Initial volume: 8.34465e-07
+all ICs set.
+ Storing values for fixed boundaries 
+------- Field ids-------------------------------------
+Add0      ->  5
+Add1      ->  6
+Etherm    ->  4
+rho       ->  0
+v_x       ->  1
+v_y       ->  2
+v_z       ->  3
+======================================================
+Integrating: time = 0 with dt = 1e-06 at step 0
+  RKSTEP = 1
+ Initial volume: 8.34465e-07
+all ICs set.
+ Storing values for fixed boundaries 
+------- Field ids-------------------------------------
+Add0      ->  5
+Add1      ->  6
+Etherm    ->  4
+rho       ->  0
+v_x       ->  1
+v_y       ->  2
+v_z       ->  3
+all ICs set.
+ Storing values for fixed boundaries 
+------- Field ids-------------------------------------
+Add0      ->  5
+Add1      ->  6
+Etherm    ->  4
+rho       ->  0
+v_x       ->  1
+v_y       ->  2
+v_z       ->  3
+======================================================
+Integrating: time = 0 with dt = 1e-06 at step 0
+  RKSTEP = 1
+======================================================
+Integrating: time = 0 with dt = 1e-06 at step 0
+  RKSTEP = 1
+all ICs set.
+ Storing values for fixed boundaries 
+------- Field ids-------------------------------------
+Add0      ->  5
+Add1      ->  6
+Etherm    ->  4
+rho       ->  0
+v_x       ->  1
+v_y       ->  2
+v_z       ->  3
+all ICs set.
+ Storing values for fixed boundaries 
+------- Field ids-------------------------------------
+Add0      ->  5
+Add1      ->  6
+Etherm    ->  4
+rho       ->  0
+v_x       ->  1
+v_y       ->  2
+v_z       ->  3
+======================================================
+Integrating: time = 0 with dt = 1e-06 at step 0
+  RKSTEP = 1
+all ICs set.
+ Storing values for fixed boundaries 
+------- Field ids-------------------------------------
+Add0      ->  5
+Add1      ->  6
+Etherm    ->  4
+rho       ->  0
+v_x       ->  1
+v_y       ->  2
+v_z       ->  3
+======================================================
+Integrating: time = 0 with dt = 1e-06 at step 0
+  RKSTEP = 1
+======================================================
+Integrating: time = 0 with dt = 1e-06 at step 0
+  RKSTEP = 1
+all ICs set.
+ Storing values for fixed boundaries 
+------- Field ids-------------------------------------
+Add0      ->  5
+Add1      ->  6
+Etherm    ->  4
+rho       ->  0
+v_x       ->  1
+v_y       ->  2
+v_z       ->  3
+ My upper type: 0 2 2
+======================================================
+ Writing info on... 
+  ... Runge Kutta Stepping 
+  ... value of cfl number 
+  ... I/O of data 
+  ... Energetics 
+  ... divergence of B 
+  ... Timing 
+======================================================
+ Using the HLLC solver 
+======================================================
+Integrating: time = 0 with dt = 1e-06 at step 0
+  RKSTEP = 1
+calling init (type=84)...
+ Cartesian Sedov Explosion 
+511 127 127
+ Initial volume: 8.34465e-07
+all ICs set.
+ Storing values for fixed boundaries 
+------- Field ids-------------------------------------
+Add0      ->  5
+Add1      ->  6
+Etherm    ->  4
+rho       ->  0
+v_x       ->  1
+v_y       ->  2
+v_z       ->  3
+======================================================
+Integrating: time = 0 with dt = 1e-06 at step 0
+  RKSTEP = 1
+cfl: 419430
+cfl: 419430
+cfl: 419430
+cfl: 419430
+cfl: 419430
+cfl: 419430
+cfl: 419430
+cfl: 419430
+------------------------------------------------------
+ Time needed for substeps:  0.0228238 0.239396 0.239396
+             for full step: 0.055865
+  RKSTEP = 2
+------------------------------------------------------
+ Time needed for substeps:  0.29243 0.239518 0.239518
+             for full step: 0.0561891
+------------------------------------------------------
+ Time needed for substeps:  0.347173 0.239319 0.239319
+             for full step: 0.0563741
+  RKSTEP = 2
+------------------------------------------------------
+ Time needed for substeps:  0.29497 0.239249 0.239249
+             for full step: 0.056118
+  RKSTEP = 2
+------------------------------------------------------
+ Time needed for substeps:  0.344363 0.239816 0.239816
+             for full step: 0.055717
+  RKSTEP = 2
+------------------------------------------------------
+ Time needed for substeps:  0.237663 0.23965 0.23965
+             for full step: 0.056149
+  RKSTEP = 2
+------------------------------------------------------
+ Time needed for substeps:  0.387166 0.23952 0.23952
+             for full step: 0.056411
+  RKSTEP = 2
+  RKSTEP = 2
+------------------------------------------------------
+ Time needed for substeps:  0.283668 0.239568 0.239568
+             for full step: 0.056499
+  RKSTEP = 2
+cfl: 474533
+cfl: 474533
+cfl: 474533
+cfl: 474533
+cfl: 474533
+cfl: 474533
+cfl: 474533
+cfl: 474533
+------------------------------------------------------
+ Time needed for substeps:  0.00089097 0.191571 0.191571
+             for full step: 0.0406759
+------------------------------------------------------
+ Time needed for substeps:  0.000750065 0.191498 0.191498
+             for full step: 0.0409598
+------------------------------------------------------
+ Time needed for substeps:  0.000563145 0.191541 0.191541
+             for full step: 0.0410631
+------------------------------------------------------
+ Time needed for substeps:  0.000859022 0.19145 0.19145
+             for full step: 0.0408909
+------------------------------------------------------
+ Time needed for substeps:  0.000411987 0.191494 0.191494
+             for full step: 0.041045
+------------------------------------------------------
+ Time needed for substeps:  0.000703096 0.191401 0.191401
+             for full step: 0.0412591
+------------------------------------------------------
+ Time needed for substeps:  0.000926971 0.191191 0.191191
+             for full step: 0.041162
+------------------------------------------------------
+ Time needed for substeps:  0.000447035 0.191263 0.191263
+             for full step: 0.0414009
+ Program exiting normally: 
+ ------ Time integration completed ------ 
+ Program exiting normally: 
+ ------ Time integration completed ------ 
+ Program exiting normally: 
+ ------ Time integration completed ------ 
+ Program exiting normally: 
+ ------ Time integration completed ------ 
+ Program exiting normally: 
+ ------ Time integration completed ------ 
+ Program exiting normally: 
+ ------ Time integration completed ------ 
+ Program exiting normally: 
+ ------ Time integration completed ------ 
+ Program exiting normally: 
+ ------ Time integration completed ------ 
+======================================================
+ Total run time               2.3234s
+ Average time step duration   2.3234s
+======================================================
+======================================================
+ Total run time               2.34472s
+ Average time step duration   2.34472s
+======================================================
+======================================================
+ Total run time               2.42556s
+ Average time step duration   2.42556s
+======================================================
+======================================================
+ Total run time               2.39589s
+ Average time step duration   2.39589s
+======================================================
+======================================================
+ Total run time               2.43821s
+ Average time step duration   2.43821s
+======================================================
+======================================================
+ Total run time               2.45022s
+ Average time step duration   2.45022s
+======================================================
+======================================================
+ Total run time               2.40486s
+ Average time step duration   2.40486s
+======================================================
+======================================================
+ Total run time               2.46184s
+ Average time step duration   2.46184s
+======================================================

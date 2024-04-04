@@ -1,0 +1,92 @@
+[2023-12-24 15:40:48.343] [0] [[33m[1mwarning[m] Celerity has detected that only 2 logical cores are available to this process. It is recommended to assign at least 5 logical cores. Performance may be negatively impacted.
+[2023-12-24 15:40:48.345] [1] [[33m[1mwarning[m] Celerity has detected that only 2 logical cores are available to this process. It is recommended to assign at least 5 logical cores. Performance may be negatively impacted.
+[2023-12-24 15:40:48.344] [0] [[32minfo[m] Celerity runtime version 0.3.2 59e7d61-dirty running on hipSYCL 0.9.3. PID = 898049, build type = release
+[2023-12-24 15:40:48.345] [1] [[32minfo[m] Celerity runtime version 0.3.2 59e7d61-dirty running on hipSYCL 0.9.3. PID = 2572238, build type = release
+[2023-12-24 15:40:49.295] [0] [[32minfo[m] Using platform 'CUDA', device 'NVIDIA GeForce RTX 2070 SUPER' (automatically selected platform 0, device 0)
+[2023-12-24 15:40:49.391] [1] [[32minfo[m] Using platform 'CUDA', device 'NVIDIA GeForce RTX 2070 SUPER' (automatically selected platform 0, device 0)
+ My upper type: 0 2 2
+======================================================
+ Writing info on... 
+  ... Runge Kutta Stepping 
+  ... value of cfl number 
+  ... I/O of data 
+  ... Energetics 
+  ... divergence of B 
+  ... Timing 
+======================================================
+ Using the HLLC solver 
+calling init (type=84)...
+ Cartesian Sedov Explosion 
+1023 127 127
+ Initial volume: 4.17233e-07
+ My upper type: 0 2 2
+======================================================
+ Writing info on... 
+  ... Runge Kutta Stepping 
+  ... value of cfl number 
+  ... I/O of data 
+  ... Energetics 
+  ... divergence of B 
+  ... Timing 
+======================================================
+ Using the HLLC solver 
+all ICs set.
+ Storing values for fixed boundaries 
+------- Field ids-------------------------------------
+Add0      ->  5
+Add1      ->  6
+Etherm    ->  4
+rho       ->  0
+v_x       ->  1
+v_y       ->  2
+v_z       ->  3
+calling init (type=84)...
+ Cartesian Sedov Explosion 
+1023 127 127
+======================================================
+Integrating: time = 0 with dt = 1e-06 at step 0
+  RKSTEP = 1
+ Initial volume: 4.17233e-07
+all ICs set.
+ Storing values for fixed boundaries 
+------- Field ids-------------------------------------
+Add0      ->  5
+Add1      ->  6
+Etherm    ->  4
+rho       ->  0
+v_x       ->  1
+v_y       ->  2
+v_z       ->  3
+======================================================
+Integrating: time = 0 with dt = 1e-06 at step 0
+  RKSTEP = 1
+cfl: 3.83146
+cfl: 3.83146
+------------------------------------------------------
+ Time needed for substeps:  0.613642 1.12855 1.12855
+             for full step: 0.052505
+  RKSTEP = 2
+------------------------------------------------------
+ Time needed for substeps:  0.309137 1.12848 1.12848
+             for full step: 0.0527129
+  RKSTEP = 2
+cfl: 3.83146
+cfl: 3.83146
+------------------------------------------------------
+ Time needed for substeps:  0.000231028 0.840595 0.840595
+             for full step: 0.038476
+ Program exiting normally: 
+ ------ Time integration completed ------ 
+------------------------------------------------------
+ Time needed for substeps:  0.000158072 0.840566 0.840566
+             for full step: 0.038583
+ Program exiting normally: 
+ ------ Time integration completed ------ 
+======================================================
+ Total run time               5.84225s
+ Average time step duration   5.84225s
+======================================================
+======================================================
+ Total run time               5.89811s
+ Average time step duration   5.89811s
+======================================================

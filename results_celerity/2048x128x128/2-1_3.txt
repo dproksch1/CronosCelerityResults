@@ -1,0 +1,92 @@
+[2023-12-25 14:26:37.927] [0] [[33m[1mwarning[m] Celerity has detected that only 2 logical cores are available to this process. It is recommended to assign at least 5 logical cores. Performance may be negatively impacted.
+[2023-12-25 14:26:37.927] [0] [[32minfo[m] Celerity runtime version 0.3.2 59e7d61-dirty running on hipSYCL 0.9.3. PID = 1869294, build type = release
+[2023-12-25 14:26:37.927] [1] [[33m[1mwarning[m] Celerity has detected that only 2 logical cores are available to this process. It is recommended to assign at least 5 logical cores. Performance may be negatively impacted.
+[2023-12-25 14:26:37.928] [1] [[32minfo[m] Celerity runtime version 0.3.2 59e7d61-dirty running on hipSYCL 0.9.3. PID = 962885, build type = release
+[2023-12-25 14:26:38.982] [0] [[32minfo[m] Using platform 'CUDA', device 'NVIDIA GeForce RTX 2070 SUPER' (automatically selected platform 0, device 0)
+[2023-12-25 14:26:38.988] [1] [[32minfo[m] Using platform 'CUDA', device 'NVIDIA GeForce RTX 2070 SUPER' (automatically selected platform 0, device 0)
+ My upper type: 0 2 2
+======================================================
+ Writing info on... 
+  ... Runge Kutta Stepping 
+  ... value of cfl number 
+  ... I/O of data 
+  ... Energetics 
+  ... divergence of B 
+  ... Timing 
+======================================================
+ Using the HLLC solver 
+calling init (type=84)...
+ Cartesian Sedov Explosion 
+2047 127 127
+ Initial volume: 2.08616e-07
+all ICs set.
+ Storing values for fixed boundaries 
+------- Field ids-------------------------------------
+Add0      ->  5
+Add1      ->  6
+Etherm    ->  4
+rho       ->  0
+v_x       ->  1
+v_y       ->  2
+v_z       ->  3
+======================================================
+Integrating: time = 0 with dt = 1e-06 at step 0
+  RKSTEP = 1
+ My upper type: 0 2 2
+======================================================
+ Writing info on... 
+  ... Runge Kutta Stepping 
+  ... value of cfl number 
+  ... I/O of data 
+  ... Energetics 
+  ... divergence of B 
+  ... Timing 
+======================================================
+ Using the HLLC solver 
+calling init (type=84)...
+ Cartesian Sedov Explosion 
+2047 127 127
+ Initial volume: 2.08616e-07
+all ICs set.
+ Storing values for fixed boundaries 
+------- Field ids-------------------------------------
+Add0      ->  5
+Add1      ->  6
+Etherm    ->  4
+rho       ->  0
+v_x       ->  1
+v_y       ->  2
+v_z       ->  3
+======================================================
+Integrating: time = 0 with dt = 1e-06 at step 0
+  RKSTEP = 1
+cfl: 7.66291
+cfl: 7.66291
+------------------------------------------------------
+ Time needed for substeps:  0.765215 2.0383 2.0383
+             for full step: 0.0695691
+  RKSTEP = 2
+------------------------------------------------------
+ Time needed for substeps:  2.03584 2.03793 2.03793
+             for full step: 0.069859
+  RKSTEP = 2
+cfl: 7.66291
+cfl: 7.66291
+------------------------------------------------------
+ Time needed for substeps:  0.000365019 1.36174 1.36174
+             for full step: 0.0493982
+------------------------------------------------------
+ Time needed for substeps:  0.000170946 1.36188 1.36188
+             for full step: 0.0494919
+ Program exiting normally: 
+ ------ Time integration completed ------ 
+ Program exiting normally: 
+ ------ Time integration completed ------ 
+======================================================
+ Total run time               11.6156s
+ Average time step duration   11.6156s
+======================================================
+======================================================
+ Total run time               11.9806s
+ Average time step duration   11.9806s
+======================================================

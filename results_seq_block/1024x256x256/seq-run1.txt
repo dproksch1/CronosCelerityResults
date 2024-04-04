@@ -1,0 +1,70 @@
+[2023-12-30 21:49:40.677] [0] [[33m[1mwarning[m] Celerity has detected that only 2 logical cores are available to this process. It is recommended to assign at least 5 logical cores. Performance may be negatively impacted.
+[2023-12-30 21:49:40.678] [0] [[32minfo[m] Celerity runtime version 0.3.2 59e7d61-dirty running on hipSYCL 0.9.3. PID = 2383319, build type = release
+[2023-12-30 21:49:41.685] [0] [[32minfo[m] Using platform 'CUDA', device 'NVIDIA GeForce RTX 2070 SUPER' (automatically selected platform 0, device 0)
+ My upper type: 0 2 2
+======================================================
+ Writing info on... 
+  ... Runge Kutta Stepping 
+  ... value of cfl number 
+  ... I/O of data 
+  ... Energetics 
+  ... divergence of B 
+  ... Timing 
+======================================================
+ Using the HLLC solver 
+calling init (type=84)...
+ Cartesian Sedov Explosion 
+1023 255 255
+ Initial volume: 1.04308e-07
+all ICs set.
+ Storing values for fixed boundaries 
+------- Field ids-------------------------------------
+Add0      ->  5
+Add1      ->  6
+Etherm    ->  4
+rho       ->  0
+v_x       ->  1
+v_y       ->  2
+v_z       ->  3
+......................................................
+   Output (flt)  triggered at time: 0
+......................................................
+======================================================
+Integrating: time = 0 with dt = 1e-06 at step 0
+  RKSTEP = 1
+--+ 0- 61,61,61: 1.000000 
+--+ 1- 61,61,61: 0.000000 
+--+ 2- 61,61,61: 0.000000 
+--+ 3- 61,61,61: 0.000000 
+--+ 4- 61,61,61: 0.000025 
+  Using Reconst:  - rho - dir 0 - substep -1
+  Using Reconst:  - v_x - dir 0 - substep -1
+  Using Reconst:  - v_y - dir 0 - substep -1
+  Using Reconst:  - v_z - dir 0 - substep -1
+  Using Reconst:  - Etherm - dir 0 - substep -1
+cfl: 2.37266e+06
+------------------------------------------------------
+ Time needed for substeps:  3.44674 1985.38 2.50573
+             for full step: 1991.34
+  RKSTEP = 2
+  Using Reconst:  - rho - dir 0 - substep -1
+  Using Reconst:  - v_x - dir 0 - substep -1
+  Using Reconst:  - v_y - dir 0 - substep -1
+  Using Reconst:  - v_z - dir 0 - substep -1
+  Using Reconst:  - Etherm - dir 0 - substep -1
+cfl: 3.72799e+06
+------------------------------------------------------
+ Time needed for substeps:  1.58895 1984.54 1.5113
+             for full step: 1987.64
+......................................................
+   Output (dbl)  triggered at time: 1e-06
+......................................................
+ Program exiting normally: 
+ ------ Time integration completed ------ 
+......................................................
+   Output (flt)  triggered at time: 1e-06
+......................................................
+======================================================
+ Total run time               1h:8m:6.58183s
+ Average time step duration   1h:8m:6.58183s
+======================================================

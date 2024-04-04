@@ -1,0 +1,92 @@
+[2023-12-25 13:57:23.352] [0] [[33m[1mwarning[m] Celerity has detected that only 2 logical cores are available to this process. It is recommended to assign at least 5 logical cores. Performance may be negatively impacted.
+[2023-12-25 13:57:23.352] [1] [[33m[1mwarning[m] Celerity has detected that only 2 logical cores are available to this process. It is recommended to assign at least 5 logical cores. Performance may be negatively impacted.
+[2023-12-25 13:57:23.352] [0] [[32minfo[m] Celerity runtime version 0.3.2 59e7d61-dirty running on hipSYCL 0.9.3. PID = 1865772, build type = release
+[2023-12-25 13:57:23.352] [1] [[32minfo[m] Celerity runtime version 0.3.2 59e7d61-dirty running on hipSYCL 0.9.3. PID = 1865774, build type = release
+[2023-12-25 13:57:25.275] [0] [[32minfo[m] Using platform 'CUDA', device 'NVIDIA GeForce RTX 2070 SUPER' (automatically selected platform 0, device 0)
+[2023-12-25 13:57:25.275] [1] [[32minfo[m] Using platform 'CUDA', device 'NVIDIA GeForce RTX 2070 SUPER' (automatically selected platform 0, device 1)
+ My upper type: 0 2 2
+======================================================
+ Writing info on... 
+  ... Runge Kutta Stepping 
+  ... value of cfl number 
+  ... I/O of data 
+  ... Energetics 
+  ... divergence of B 
+  ... Timing 
+======================================================
+ Using the HLLC solver 
+ My upper type: 0 2 2
+======================================================
+ Writing info on... 
+  ... Runge Kutta Stepping 
+  ... value of cfl number 
+  ... I/O of data 
+  ... Energetics 
+  ... divergence of B 
+  ... Timing 
+======================================================
+ Using the HLLC solver 
+calling init (type=84)...
+ Cartesian Sedov Explosion 
+1535 127 127
+calling init (type=84)...
+ Cartesian Sedov Explosion 
+1535 127 127
+ Initial volume: 2.78155e-07
+ Initial volume: 2.78155e-07
+all ICs set.
+ Storing values for fixed boundaries 
+------- Field ids-------------------------------------
+Add0      ->  5
+Add1      ->  6
+Etherm    ->  4
+rho       ->  0
+v_x       ->  1
+v_y       ->  2
+v_z       ->  3
+all ICs set.
+ Storing values for fixed boundaries 
+------- Field ids-------------------------------------
+Add0      ->  5
+Add1      ->  6
+Etherm    ->  4
+rho       ->  0
+v_x       ->  1
+v_y       ->  2
+v_z       ->  3
+======================================================
+Integrating: time = 0 with dt = 1e-06 at step 0
+  RKSTEP = 1
+======================================================
+Integrating: time = 0 with dt = 1e-06 at step 0
+  RKSTEP = 1
+cfl: 5.74719
+cfl: 5.74719
+------------------------------------------------------
+ Time needed for substeps:  0.889427 1.5646 1.5646
+             for full step: 0.053467
+  RKSTEP = 2
+------------------------------------------------------
+ Time needed for substeps:  0.877538 1.5646 1.5646
+             for full step: 0.0534689
+  RKSTEP = 2
+cfl: 5.74719
+cfl: 5.74719
+------------------------------------------------------
+ Time needed for substeps:  7.39098e-05 1.03513 1.03513
+             for full step: 0.0342081
+ Program exiting normally: 
+ ------ Time integration completed ------ 
+------------------------------------------------------
+ Time needed for substeps:  7.29561e-05 1.03513 1.03513
+             for full step: 0.034209
+ Program exiting normally: 
+ ------ Time integration completed ------ 
+======================================================
+ Total run time               9.71969s
+ Average time step duration   9.71969s
+======================================================
+======================================================
+ Total run time               9.72009s
+ Average time step duration   9.72009s
+======================================================

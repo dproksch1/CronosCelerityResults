@@ -1,0 +1,94 @@
+ My upper type: 0 2 2
+======================================================
+ Writing info on... 
+  ... Runge Kutta Stepping 
+  ... value of cfl number 
+  ... I/O of data 
+  ... Energetics 
+  ... divergence of B 
+  ... Timing 
+======================================================
+ Using the HLLC solver 
+  Using Reconst:  - rho - dir 0 - substep 0
+  Using Reconst:  - v_x - dir 0 - substep 0
+  Using Reconst:  - v_y - dir 0 - substep 0
+  Using Reconst:  - v_z - dir 0 - substep 0
+  Using Reconst:  - Etherm - dir 0 - substep 0
+  Using Reconst:  - rho - dir 1 - substep 0
+  Using Reconst:  - v_x - dir 1 - substep 0
+  Using Reconst:  - v_y - dir 1 - substep 0
+  Using Reconst:  - v_z - dir 1 - substep 0
+  Using Reconst:  - Etherm - dir 1 - substep 0
+  Using Reconst:  - rho - dir 2 - substep 0
+  Using Reconst:  - v_x - dir 2 - substep 0
+  Using Reconst:  - v_y - dir 2 - substep 0
+  Using Reconst:  - v_z - dir 2 - substep 0
+  Using Reconst:  - Etherm - dir 2 - substep 0
+  Using Reconst:  - rho - dir 0 - substep 1
+  Using Reconst:  - v_x - dir 0 - substep 1
+  Using Reconst:  - v_y - dir 0 - substep 1
+  Using Reconst:  - v_z - dir 0 - substep 1
+  Using Reconst:  - Etherm - dir 0 - substep 1
+  Using Reconst:  - rho - dir 1 - substep 1
+  Using Reconst:  - v_x - dir 1 - substep 1
+  Using Reconst:  - v_y - dir 1 - substep 1
+  Using Reconst:  - v_z - dir 1 - substep 1
+  Using Reconst:  - Etherm - dir 1 - substep 1
+  Using Reconst:  - rho - dir 2 - substep 1
+  Using Reconst:  - v_x - dir 2 - substep 1
+  Using Reconst:  - v_y - dir 2 - substep 1
+  Using Reconst:  - v_z - dir 2 - substep 1
+  Using Reconst:  - Etherm - dir 2 - substep 1
+calling init (type=84)...
+ Cartesian Sedov Explosion 
+1535 255 255
+ Initial volume: 6.95388e-08
+all ICs set.
+ Storing values for fixed boundaries 
+------- Field ids-------------------------------------
+Add0      ->  5
+Add1      ->  6
+Etherm    ->  4
+rho       ->  0
+v_x       ->  1
+v_y       ->  2
+v_z       ->  3
+-------Fluctuations-----------------------------------
+ E_kin:  0.000e+00 E_dyn:  0.000e+00
+-------Energertics:-----------------------------------
+ E_ges:  2.500e-05 E_th:   2.479e-05
+-------Dynamics:--------------------------------------
+ Vorti.: 0.000e+00 Enstr.: 0.000e+00 M_rms:  0.000e+00
+-------Conserved quantities:--------------------------
+ Mass: 1.000e+00 err: 0.000e+00
+ p_x:  0.000e+00 err: 0.000e+00
+ p_y:  0.000e+00 err: 0.000e+00
+ p_z:  0.000e+00 err: 0.000e+00
+ Eges: 2.500e-05 err: 0.000e+00
+......................................................
+   Output (flt)  triggered at time: 0
+......................................................
+======================================================
+Integrating: time = 0 with dt = 1e-06 at step 0
+  RKSTEP = 1
+------------------------------------------------------
+ Time needed for substeps:  91.0412 0.894414
+             for full step: 91.9357
+  RKSTEP = 2
+------------------------------------------------------
+ Time needed for substeps:  88.9984 0.901436
+             for full step: 89.8998
+......................................................
+   Output (dbl)  triggered at time: 1e-06
+......................................................
+ Program exiting normally: 
+ ------ Time integration completed ------ 
+......................................................
+   Output (flt)  triggered at time: 1e-06
+......................................................
+finished finalizing, still inside SYCL scope
+======================================================
+ Total run time               5m:34.3799s
+ Average time step duration   5m:34.3799s
+======================================================
+finished finalizing, outside SYCL scope, exit code 1
