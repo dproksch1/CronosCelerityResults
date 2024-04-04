@@ -18,4 +18,4 @@ To correctly parse the results in the `results_celerity` directory, use the `--f
 
 ## Context
 
-This project was created as part of a master's thesis by Daniel Proksch at the University of Innbruck. The thesis and project were supervised by Phillip Gschwandtner.
+This project was created as part of a master's thesis by Daniel Proksch at the University of Innbruck. The thesis and project were supervised by Philipp Gschwandtner.
